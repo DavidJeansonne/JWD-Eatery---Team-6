@@ -1,0 +1,69 @@
+
+
+html {
+    background: rgb(2,0,36);
+background: -moz-linear-gradient(311deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+background: -webkit-linear-gradient(311deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+background: linear-gradient(311deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+button{
+  background: grey;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  transition: background .5s ease-in-out, color .5s ease-in-out;
+    &:hover{
+    background: red;
+    color: white
+  }
+}
+
+#email-form{
+  font-color: white;
+}
+
+p {
+  width: 100%;
+}
+.toptnav{
+  background-color: purple;
+  overflow: hidden;
+}
+a:hover {
+  background-color: red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px auto auto auto;
+  background-color: white;
+  font-family: snell-roundhand, cursive;
+  padding: 10px;
+}
+.grid-item {
+  background-color: Grey;
+  border: double;
+  padding: 2px;
+  font-family: Snell-roundhand, cursive;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+.entree {
+  font-size: 20px;
+}
